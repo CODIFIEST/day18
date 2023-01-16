@@ -1,6 +1,11 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
+    import AlertButton from './lib/AlertButton.svelte';
   import Counter from './lib/Counter.svelte'
+    import LoginButton from './lib/LoginButton.svelte';
+  import NameInput from './lib/NameInput.svelte';
+    import NfTsFromAddress from './lib/NFTsFromAddress.svelte';
+    import NftView from './lib/NFTView.svelte';
 </script>
 
 <main>
@@ -16,6 +21,14 @@
 
   <div class="card">
     <Counter />
+    <AlertButton />
+    <NameInput />
+    <NftView/>
+    <LoginButton />
+    <NfTsFromAddress />
+
+    <!-- <NfTsFromAddress/> -->
+    
   </div>
 
   <p>
